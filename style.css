@@ -205,7 +205,7 @@ transition: all .5s ease-in-out;
 
   .hero {
      height: 825px;
-     margin: 0 -20px;
+     /* margin: 0 -20px; */
       background-image: linear-gradient(
           to right,
           rgba(193, 135, 135, 0.4),
@@ -271,7 +271,7 @@ transition: all .5s ease-in-out;
 
   @media screen and (min-width:768px) {
     .hero {
-        margin: 0 -200px;
+        /* margin: 0 -200px; */
         height: 866px;
     }
 
@@ -408,7 +408,7 @@ h2 {
 }
 
 .photo-card {
-    width: 390px;
+    width: 100%;
     height: 413px;
 }
 
@@ -418,7 +418,7 @@ h2 {
 
 @media screen and (min-width:768px) {
     .examples {
-        margin: 0 -100px; 
+        /* margin: 0 -100px;  */
     }
 
     h2 {
@@ -476,7 +476,7 @@ h2 {
 
 .team {
     background-color: var(--light-pink);
-    margin: 0 -20px;
+    /* margin: 0 -20px; */
     padding: 60px 0;
 }
 
@@ -509,7 +509,7 @@ h2 {
 
 .service {
     background-color: var(--dark-color);
-    margin: 0 -20px;
+    /* margin: 0 -20px; */
     padding: 60px 0;
 
 }
@@ -518,7 +518,7 @@ h2 {
 
 @media screen and (min-width:768px) {
 .team {
-    margin: 0 -200px;
+    /* margin: 0 -200px; */
 }
 
     .team-list {
@@ -647,7 +647,7 @@ h2 {
 @media screen and (min-width:768px) {
 
     .service {
-        margin: 0 -200px;
+        /* margin: 0 -200px; */
     }
     .service-list {
         margin-top: 150px;
@@ -700,7 +700,7 @@ h2 {
 .contacts {
     padding: 60px 0;
     background-color: var(--pink-color);
-    margin: 0 -20px;
+    /* margin: 0 -20px; */
 }
 
 
