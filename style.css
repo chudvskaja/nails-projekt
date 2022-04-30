@@ -45,15 +45,14 @@ header {
 .container {
     /* width: 428px; */
     margin: auto;
-    padding: 0 20px;  
     position: relative;
 } 
 
 @media screen and (min-width: 768px) {
-    /* .container {
-        width: 1200px;
+    .container {
+        padding: 0 20px;  
 
-    } */
+    }
 
     .desktop-nav {
         display: flex;
@@ -115,7 +114,7 @@ header {
         display: flex;
         justify-content: flex-end;
         align-items: center; 
-        padding: 20px 0;
+        padding: 20px;
     
     }
 
@@ -326,11 +325,10 @@ display: none;
        gap: 30px;
        justify-content: space-around;
        align-items: center;
-       /* margin: 0 200px; */
    }
 
    .advantage-list > li {
-       width: calc(100% / 3 - 30px);
+       width: calc(100% / 3 - 100px);
        height: 190px;
        background-color:var(--pink-color);
        border-radius: 15px;
@@ -417,9 +415,7 @@ h2 {
 }
 
 @media screen and (min-width:768px) {
-    .examples {
-        /* margin: 0 -100px;  */
-    }
+   
 
     h2 {
         font-size: 54px;
@@ -547,7 +543,7 @@ h2 {
 
 .service-item {
     position: relative;
-    width: 377px;
+    width: 90%;
     height: 377px;
     background-color: var(--nude-color);
     border-radius: 45px;
@@ -557,14 +553,14 @@ h2 {
 .service-item.one::before {
     content: ' ';
     position: absolute;
-    width: 268px;
-    height: 253px;
+    width: 200px;
+    height: 200px;
     background-color: #c8aeae;
     background-image: url(./photos/xd-mobile/pexels-karolina-grabowska-4963838@2x\ 3.jpg);
     background-position: center;
     background-size: cover;
     top: -30%;
-    left: 15%;
+    left: 20%;
     border-radius: 50%;
     
 }
@@ -572,14 +568,14 @@ h2 {
 .service-item.two::before {
     content: ' ';
     position: absolute;
-    width: 268px;
-    height: 253px;
+    width: 200px;
+    height: 200px;
     background-color: #c8aeae;
     background-image: url(./photos/xd-mobile/pexels-karolina-grabowska-4963838@2x\ 4.jpg);
     background-position: center;
     background-size: cover;
     top: -30%;
-    left: 15%;
+    left: 20%;
     border-radius: 50%;
     
 }
@@ -588,14 +584,14 @@ h2 {
 .service-item.three::before {
     content: ' ';
     position: absolute;
-    width: 268px;
-    height: 253px;
+    width: 200px;
+    height: 200px;
     background-color: #c8aeae;
     background-image: url(./photos/xd-mobile/pexels-karolina-grabowska-4963838@2x\ 2.jpg);
     background-position: center;
     background-size: cover;
     top: -30%;
-    left: 15%;
+    left: 20%;
     border-radius: 50%;
     
 }
@@ -603,14 +599,14 @@ h2 {
 .service-item.four::before {
     content: ' ';
     position: absolute;
-    width: 268px;
-    height: 253px;
+    width: 200px;
+    height: 200px;
     background-color: #c8aeae;
     background-image: url(./photos/xd-mobile/pexels-karolina-grabowska-4963838.jpg);
     background-position: center;
     background-size: cover;
     top: -30%;
-    left: 15%;
+    left: 20%;
     border-radius: 50%;  
 }
 
@@ -646,9 +642,7 @@ h2 {
 
 @media screen and (min-width:768px) {
 
-    .service {
-        /* margin: 0 -200px; */
-    }
+    
     .service-list {
         margin-top: 150px;
         display: flex;
@@ -660,6 +654,16 @@ h2 {
         gap: 20px;
     }
 
+    .service-item {  
+        width: 377px;
+    }
+
+    .service-item.one::before, .service-item.two::before, .service-item.three::before, .service-item.four::before {
+        width: 268px;
+        height: 253px;
+        left: 15%;
+        
+    }
 
 
     .service-item.five::before {
@@ -689,8 +693,6 @@ h2 {
         left: 15%;
         border-radius: 50%;  
     }
-
-
     
 }
 
@@ -746,10 +748,11 @@ address {
     .map {
         display: block;
         margin: auto;
+        width: 90%;
     }
 
     .open-hours {
-        width: 392px;
+        width: 90%;
         height: 494px;
         padding: 30px 0;
         background-color: var(--dark-color);
@@ -854,7 +857,10 @@ address {
         align-items: center;
         margin-left: 200px;
     }
-        
+
+    .open-hours {
+    width: 392px;
+    }  
    
 
     address {
@@ -897,6 +903,13 @@ address {
         height: 40px;
     }
 
+    .map {
+
+        width: 377px;
+        height: 377px;
+    
+    }
+
 }
 
 @media screen and (max-width:767px) {
@@ -911,7 +924,7 @@ address {
 /* form */
 
 .playsholder {
-    width: 309px;
+    width: 70%;
     height: 68px;
     border-radius: 30px;
     border: 1px solid grey;
@@ -921,7 +934,7 @@ address {
 }
 
 .playsholder.phone {
-    margin-left: 100px;
+    margin-left: 70px;
 }
 
 img {
@@ -976,6 +989,15 @@ footer {
 
     .booking-form {
         margin-top: 50px;
+    }
+
+    .playsholder {
+        width: 309px;
+        
+    }
+
+    .playsholder.phone {
+        margin-left: 100px;
     }
 
 }
