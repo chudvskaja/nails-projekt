@@ -39,7 +39,7 @@ body{
 }
 
 header {
-    padding: 20px 0;
+    padding: 20px;
 }
 
 .container {
@@ -543,7 +543,7 @@ h2 {
 
 .service-item {
     position: relative;
-    width: 90%;
+    width: 300px;
     height: 377px;
     background-color: var(--nude-color);
     border-radius: 45px;
@@ -553,14 +553,14 @@ h2 {
 .service-item.one::before {
     content: ' ';
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: #c8aeae;
     background-image: url(./photos/xd-mobile/pexels-karolina-grabowska-4963838@2x\ 3.jpg);
     background-position: center;
     background-size: cover;
     top: -30%;
-    left: 20%;
+    left: 25px;
     border-radius: 50%;
     
 }
@@ -568,14 +568,14 @@ h2 {
 .service-item.two::before {
     content: ' ';
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: #c8aeae;
     background-image: url(./photos/xd-mobile/pexels-karolina-grabowska-4963838@2x\ 4.jpg);
     background-position: center;
     background-size: cover;
     top: -30%;
-    left: 20%;
+    left: 25px;
     border-radius: 50%;
     
 }
@@ -584,14 +584,14 @@ h2 {
 .service-item.three::before {
     content: ' ';
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: #c8aeae;
     background-image: url(./photos/xd-mobile/pexels-karolina-grabowska-4963838@2x\ 2.jpg);
     background-position: center;
     background-size: cover;
     top: -30%;
-    left: 20%;
+    left: 25px;
     border-radius: 50%;
     
 }
@@ -599,14 +599,14 @@ h2 {
 .service-item.four::before {
     content: ' ';
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: #c8aeae;
     background-image: url(./photos/xd-mobile/pexels-karolina-grabowska-4963838.jpg);
     background-position: center;
     background-size: cover;
     top: -30%;
-    left: 20%;
+    left: 25px;
     border-radius: 50%;  
 }
 
