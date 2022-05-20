@@ -1,5 +1,6 @@
 {
     "files.autoSave": "onFocusChange",
     "editor.bracketPairColorization.enabled": true,
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "liveServer.settings.port": 5501
 }
